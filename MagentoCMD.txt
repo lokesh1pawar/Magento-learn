@@ -1,0 +1,118 @@
+
+php bin/magento cache:clean
+
+php bin/magento setup:upgrade
+
+php bin/magento cache:flush
+
+php bin/magento setup:static-content:deploy
+
+php bin/magento setup:di:compile 
+
+chmod 0777 -R <folder-name>
+chmod 0644 -R <folder-name>
+chmod 0755 -R <folder-name>
+
+
+rm -rf lokesh
+mkdir lokesh
+
+
+
+--------------------------------------------------------------------------------------------
+
+FileZilla Credential :-
+
+
+Host- 109.106.246.201
+Username- u209420614
+Password- 8r2Eu73h7eykSTk
+Port- 21
+
+
+
+ssh detail :
+---------------
+
+URL : http://eshopdevs-com.preview-domain.com/lokesh/
+
+ssh -p 65002 u209420614.lokesh@109.106.246.201
+8r2Eu73h7eykSTk
+
+work under dir >> /home/u209420614/public_html/lokesh
+
+Database : u209420614_lokesh
+username : u209420614_lokesh
+
+Lokesh2021@
+
+
+ssh -p 65002 u209420614@109.106.246.201
+
+
+
+**************************************
+
+Server Mysql detail :-
+
+ System   - MYSQL
+ Server   - mysql
+ Username - u209420614_lokesh
+ Password - Lokesh2021@
+ Database - u209420614_lokesh
+
+********************************************
+
+For installation magneto :-
+
+bin/magento setup:install \
+--base-url=http://lokesh.eshopdevs.com \
+--db-host=mysql \
+--db-name=u209420614_lokesh \
+--db-user=u209420614_lokesh \
+--db-password=Lokesh2021@ \
+--admin-firstname=lokesh \
+--admin-lastname=pawar \
+--admin-email=lokesh@admin.com \
+--admin-user=admin \
+--admin-password=admin123 \
+--language=en_US \
+--currency=USD \
+--timezone=America/Chicago \
+--use-rewrites=1
+
+
+Admin link -> admin_1hi38d
+
+----------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+docker exec -ti CONTAINER_NAME bash
+
+php -r "echo ini_get('memory_limit').PHP_EOL;";     
+
+
+
+
+FOR MORE :-
+
+https://www.emiprotechnologies.com/technical_notes/magento-technical-notes-60/post/magento-2-useful-commands-list-391
+
+
+
+
+ LoadModule php7_module /opt/homebrew/opt/php@7.3/lib/httpd/modules/libphp7.so
+
+    <FilesMatch \.php$>
+        SetHandler application/x-httpd-php
+    </FilesMatch>
+
+lokesh.techiq@gmail.com
+J{h5zXbKY#/8>8vQ
