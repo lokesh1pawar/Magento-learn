@@ -1,0 +1,1 @@
+"Fatal Error: 'Allowed memory size of 536870912 bytes exhausted (tried to allocate 18874368 bytes)' in '\/home\/u209420614\/domains\/eshopdevs.com\/public_html\/lokesh\/vendor\/composer\/composer\/src\/Composer\/DependencyResolver\/RuleSet.php' on line 90"
